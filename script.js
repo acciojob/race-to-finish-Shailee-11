@@ -1,5 +1,5 @@
 window.promises = [];
-var a =document.getElementById("output");
+// var a =document.getElementById("output");
 
 
 function createPromise(){
