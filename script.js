@@ -1,5 +1,5 @@
 window.promises = [];
-var a =document.getElementsById("output");
+var a =document.getElementById("output");
 
 
 function createPromise(){
@@ -14,7 +14,7 @@ function createPromise(){
  const promises = Arrray.from({length:5}, createPromise);
 Promise.any(promises)
 .then((res)=>{
-	document.getElementsById("output").textContent=res;
+	document.getElementById("output").textContent=res;
 })
 .catch((error)=>{
 	console.log(error);
